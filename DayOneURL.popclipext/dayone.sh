@@ -12,5 +12,8 @@ else
 $POPCLIP_TEXT"
 fi
 
+echo "ENTRY_TEXT" >> /Users/bboland/Desktop/popclip.log
+echo "$ENTRY_TEXT" >> /Users/bboland/Desktop/popclip.log
+
 open "dayone://post?entry=$ENTRY_TEXT"
 open -b com.dayoneapp.dayone
