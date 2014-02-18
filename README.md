@@ -6,5 +6,3 @@ I copied the Day One extension from PopClip to customize it a bit:
 
 * Selected text is formatted as a Markdown blockquote, by prepending each line with `> `.
 * If a URL and page title are available, include those as a Markdown link above the selected text.
-
-Unfortuntaely, this only works properly with Safari right now, becuase PopClip cannot get the URL and title from other browsers. The PopClip documentation indicates that this should also work in Chrome, but it does not; [I have an issue open about this](https://github.com/pilotmoon/PopClip-Extensions/issues/388).
